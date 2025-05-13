@@ -18,9 +18,10 @@
 
 	class CRest
 	{
-		const VERSION = '1.36';
-		const BATCH_COUNT    = 50;//count batch 1 query
-		const TYPE_TRANSPORT = 'json';// json or xml
+		const VERSION_BEFORE_FORK = '1.36'; // версия до форка
+		const VERSION = '1.0'; // текущая версия
+		const BATCH_COUNT = 50; //count batch 1 query
+		const TYPE_TRANSPORT = 'json'; // json or xml
 
 		/**
 		 * call where install application even url
